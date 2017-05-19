@@ -191,3 +191,68 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+
+/***********************
+MEDIA QUERIES
+************************/
+
+@media (max-width: 450px) {
+	.top-navigation ul li:nith-child(7){
+		
+	}
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+	.search-box input {
+		max-width: 85%
+	}
+
+}
+
+@media (max-width: 600px) {
+	.search-box input {
+		max-width: 80%;
+	}
+	.top-navigation {
+		float:none;
+		text-align: center;
+		margin-right: 25px;
+	}
+	.left-site-links {
+		float:none;
+		text-align: center;
+		padding-left:20px;
+	}
+	.right-site-links {
+		float:none;
+		text-align: center;
+		padding-right:10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
